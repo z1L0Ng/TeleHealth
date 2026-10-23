@@ -1,0 +1,44 @@
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+envs/
+
+# Caches and temporary files
+cache/
+.cache/
+tmp/
+
+# Model weights and checkpoints (keep outside the repo, e.g. ~/models/)
+models/
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.bin
+*.onnx
+
+# Data and audio (raw data and participant data never go into git)
+data/
+*.wav
+*.flac
+*.mp3
+*.m4a
+*.ogg
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+
+# Secrets
+.env
+*.key
